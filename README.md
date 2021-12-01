@@ -2,33 +2,6 @@
 
 
 
-Contents
-========
-
- * [Why?](#why)
- * [Installation](#installation)
- * [Requirements](#requirements)
- * [Usage](#usage)
- * [Configuration](#configuration)
- * [Output Structure](#project-structure)
-
-
-
-### Why?
-
-
-
-### Installation
----
-
-
-### Usage
----
-
-
-### Configuration
-
-
 #### Project Structure
 ---
 
@@ -102,11 +75,3 @@ Sources dir/
 ├── CONTRIBUTORS.md
 ├── README.md
 │   └── 
-```
-
-
-
-
-
-
-
