@@ -1,0 +1,139 @@
+/*
+CSS de la page ajout-article.jsp
+Author : Antoine
+Version : 1
+ */
+
+#titreNouvelleVente {
+    font-size:70px;
+}
+
+#ajoutVenteContainer {
+    background: url("../img/bg-opacity.png");
+    width:1000px;
+    margin: auto;
+}
+
+#venteBody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 0px 20px 0px;
+}
+
+#imageArticle {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 80px;
+    margin-right: 80px;
+    overflow: hidden;
+}
+
+#formulaireAjoutVente {
+    grid-column: 2;
+    grid-row: 1;
+    text-align:left;
+    margin-left: -100px;
+}
+
+.infosArticle {
+    margin:10px;
+}
+
+.labelArticle {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #104a4b;
+    width:180px;
+    display: inline-block;
+}
+
+#labelDescription {
+    position:absolute;
+}
+
+.textareaDescription {
+    margin-left:184px;
+    width:350px;
+    height: 180px;
+    padding:5px;
+    border: solid 2px #f6928a;
+    color: #176869;
+    background-color: #FFFFFF;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.textareaDescription:focus, .inputAjoutArticle:focus, .categoriesAjoutArticle:focus {
+
+    outline: none;
+}
+
+#nomArticle, #imgArticle, #rueRetrait, #codePostalRetrait, #villeRetrait {
+    width:350px;
+}
+
+.inputAjoutArticle {
+    width:150px;
+    padding:5px;
+    border: solid 2px #f6928a;
+    color: #176869;
+    background-color: #FFFFFF;
+}
+
+#retraitArticle {
+    background: url("../img/bg-opacity.png");
+    padding:10px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    width: 560px;
+}
+
+#adresseDeRetrait {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+#labelRue, #labelCodePostal, #labelVille {
+    width:170px;
+}
+
+.categoriesAjoutArticle {
+    padding:5px;
+    border: solid 2px #f6928a;
+    color: #176869;
+    background-color: #FFFFFF;
+}
+
+
+#enregistrer, #annuler {
+    background-color: #FFFFFF;
+    border: solid 2px #f6928a;
+    padding: 10px 10px 10px 30px;
+    color: #f6928a;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right:10px;
+    font-weight: 600;
+}
+
+#iconSave, #iconCancel {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f6928a;
+}
+
+.error{
+    border: 2px solid #f00;
+}
+
+.error::placeholder {
+    color:red;
+}
+
+#imgArt {
+    width: 300px;
+}
+

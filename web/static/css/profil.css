@@ -1,0 +1,129 @@
+.wrapper {
+    background-color: transparent;
+    width: 1000px;
+    margin:auto;
+}
+
+.wrapper-op {
+    background: url("../img/bg-opacity.png") top left repeat;
+    width: 1000px;
+    padding: 10px 0px 20px 0px;
+}
+
+.col-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.col-1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 150px;
+}
+
+
+.col-2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 290px;
+}
+
+.label-profil {
+    color: white;
+    display: inline-block;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #104a4b;
+    margin-left: -180px;
+    width: 150px;
+    text-align: left;
+}
+
+.input-profil {
+    color: #104a4b;
+    border: solid 2px #f6928a;
+    width: 210px;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+}
+
+
+.input-profil-other {
+    color: #104a4b;
+    border: none;
+    width: 210px;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    background: transparent;
+    font-weight: bold;
+    font-family: 'Quicksand', tahoma;
+}
+
+.input-profil-other-flou {
+    color: transparent;
+    border: none;
+    width: 210px;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    background: transparent;
+    font-weight: bold;
+    font-family: 'Quicksand', tahoma;
+    text-shadow: 0 0 6px #104a4b;
+}
+
+.input-profil-other-flou:focus, .input-profil-other:focus {
+    outline: none;
+}
+
+
+
+.btnProfil {
+    background-color: #FFFFFF;
+    border: solid 2px #f6928a;
+    width: 120px;
+    padding: 10px 5px 10px 30px;
+    color: #f6928a;
+    border-radius: 8px;
+    cursor:pointer;
+    font-weight: bold;
+    font-family: 'Quicksand', tahoma;
+}
+
+#profil {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.iconProfilDelete {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 13px;
+    color: #f6928a;
+}
+
+.iconProfilSave, .iconProfilCancel {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #f6928a;
+}
+
+
+
+.input-create-profil:focus{
+    outline: none;
+}
+
+.error {
+    border: 2px solid #f00;
+}
+
+.error::placeholder {
+    color:red;
+}

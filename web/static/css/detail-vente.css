@@ -1,0 +1,174 @@
+#titreDetailVente {
+    font-size: 70px;
+}
+
+.vente-container {
+    background: url("../img/bg-opacity.png") top left repeat;
+    width: 1000px;
+    margin: auto;
+
+}
+
+.vente_body {
+    width: 840px;
+    margin: auto;
+    padding:20px;
+}
+
+.vente-nom {
+    width: 200px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #176869;
+    font-size: 20px;
+
+}
+
+.rectangle {
+    background: url(../img/bg.png) top left repeat;
+    width: 350px;
+    padding: 3px;
+    margin-top:7px;
+}
+
+.vente-resp {
+    color: #176869;
+    font-weight: 600;
+}
+
+.col-container-vente {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.col-1-vente {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: -14px;
+}
+
+
+#img {
+    margin-left:-40px
+}
+
+#img img {
+    width:350px;
+    border: solid 4px #f6928a;
+}
+
+.col-2-vente {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 10px;
+}
+
+
+.proposition {
+    background-color: #FFFFFF;
+    border: solid 2px #f6928a;
+    width: 110px;
+    padding: 5px;
+    color: #104a4b;
+    font-size: 20px;
+}
+
+.proposition_body {
+
+    color: #FFFFFF;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #176869;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.input-btn {
+    background-color: #f6928a;
+    color: #FFFFFF;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    margin-left: 24px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#maProposition {
+    margin-left:-100px;
+}
+
+#messageDebutEnchere {
+    width: 550px;
+    background: #c97b46;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.messageErreurEnchere {
+    width: 355px;
+    background: #c20000;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.messageValidationEnchere {
+    width: 355px;
+    background: #00c21a;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#pointDispo {
+    width: 355px;
+    background: #176869;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom:20px;
+}
+
+#messageWinner {
+    width: 550px;
+    background: #00c21a;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.icon {
+    margin:0px 10px 0px 10px;
+}
+
+#messageLooser {
+    width: 550px;
+    background: #bb0000;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#messagePasVendu {
+    width: 550px;
+    background: #176869;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

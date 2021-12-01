@@ -1,0 +1,314 @@
+/*
+CSS de la page liste-enchere.jsp
+Author : Antoine
+Version : 1
+ */
+
+#titreListeEncheres {
+    font-size:60px;
+    margin-top:130px;
+}
+
+#filtres {
+    width:1000px;
+    padding:10px;
+    display: block;
+    margin:auto;
+
+}
+
+#rechercheCat {
+    width:1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#recherche {
+    grid-column: 2;
+    grid-row: 2;
+    text-align:left;
+    margin: 20px 0px 20px 0px;
+}
+
+#cat {
+    grid-column: 1;
+    grid-row: 2;
+    text-align:right;
+    margin: 20px 0px 20px 0px;
+}
+
+#filtrage {
+    margin-top:50px;
+}
+
+#achatsGroupe {
+    grid-column: 1;
+    grid-row: 1;
+    text-align:left;
+    margin-left: 250px;
+}
+
+#mesventesGroupe {
+    grid-column: 2;
+    grid-row: 1;
+    text-align:left;
+    margin-left: 45px;
+}
+
+#articleRecherche {
+    background-color: #FFFFFF;
+    border: solid 2px #f6928a;
+    width: 210px;
+    padding: 10px 5px 10px 40px;
+    color: #104a4b;
+}
+
+#articleRecherche:focus, #categories:focus {
+    outline:none;
+}
+
+#iconRecherche {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#iconRecherche i {
+    color:#f6928a;
+    font-size:22px;
+}
+
+#rechercher {
+    background-color: #f6928a;
+    color: #FFFFFF;
+    padding:12px;
+    border:none;
+    cursor:pointer;
+    margin-left: -5px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+    letter-spacing: 1px;
+}
+
+#legendeCat {
+    visibility: hidden;
+}
+
+#categories {
+    margin-left:10px;
+}
+
+#categories {
+    background-color: #FFFFFF;
+    border: solid 2px #f6928a;
+    padding:10px;
+    color: #104a4b;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.filtrage {
+    margin-top:40px;
+    margin-left:170px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px #176869;
+    font-size:20px;
+    font-weight:600;
+}
+
+#articles {
+    margin-top:30px;
+}
+
+/* BOUTONS RADIO */
+
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 11px;
+    width: 11px;
+    background-color: #c7d9d9;
+    border-radius: 50%;
+    border: solid;
+    margin-top: 6px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #9db4b4;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #f6928a;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border: 2px solid #f6928a;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+
+input[type="checkbox"]:checked {
+    color: #FFF;
+    background-color: #f6928a;
+}
+
+input[type="checkbox"]:checked:before {
+    font-family: 'Quicksand', tahoma;
+    content: '✔';
+    display: block;
+    color: #FFF;
+    font-size: 13px;
+    position: absolute;
+    margin-left:1px;
+    margin-top:-4px;
+
+}
+
+input[type="checkbox"]:disabled {
+    border: 2px solid #cdcdcd;
+    background-color: #f1f1f1;
+}
+
+
+.nomListe {
+    font-size:20px;
+    margin-left:5px;
+}
+
+#contentArticles {
+    text-align: center;
+    width:1037px;
+    margin:auto;
+}
+
+#articles {
+    text-align:left;
+
+}
+
+#articles a {
+    text-decoration: none;
+    color: #176869;
+}
+
+.linkCard {
+    background-color: #FFFFFF;
+    width:470px;
+    height:174px;
+    display: inline-grid;
+    margin:23px;
+    border-radius:90px 10px 10px 90px;
+    box-shadow: 1px 1px 3px #176869;
+    color: #176869;
+}
+
+#image {
+    width: 170px;
+    height: 170px;
+    border: solid 3px #f6928a;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#image img {
+    width: 170px;
+    vertical-align: text-top;
+}
+
+#image p {
+    margin-top: 65px;
+    margin-left: 65px;
+    color: #176869;
+}
+
+#desc {
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 12px;
+}
+
+#desc p {
+    margin-top:5px;
+}
+
+#lienProfil {
+    font-weight: bold;
+}
+
+#articleNonTrouve {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #104a4b;
+}
+
+#iconCat {
+    margin-left:230px;
+    position: absolute;
+    margin-top: 125px;
+}
+
+.iconCatArticle {
+    font-size:24px;
+    color: #f6928a;
+}

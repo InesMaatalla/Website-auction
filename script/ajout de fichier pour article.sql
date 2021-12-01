@@ -1,0 +1,1 @@
+alter table ARTICLES add image_path varchar(128) null;
